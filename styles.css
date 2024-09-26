@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.hero {
+    text-align: center;
+    padding: 20px;
+    background: #aeaaaa;
+}
+
+.hero-image {
+    width: 90%;
+    max-width: 500px;
+    animation: fadeIn 2s;
+}
+
+.product, .promotion {
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.product:hover, .promotion:hover {
+    transform: scale(1.05);
+}
+
+.product-image, .promotion-image {
+    width: 35%;
+    height: auto;
+}
+
+.video-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.video-container video {
+    width: 25%;
+    max-width: 600px;
+    height: auto; /* La hauteur s'ajuste automatiquement */
+    border: 1px solid #ddd; /* Bordure pour le style */
+    border-radius: 8px; /* Coins arrondis */
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+
+.footer-content h2,
+.footer-content h3 {
+    margin: 10px 0;
+}
+
+.social-media {
+    margin: 10px 0;
+}
+
+.social-media a {
+    color: #4CAF50;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
